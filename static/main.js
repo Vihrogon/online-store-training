@@ -1,0 +1,1 @@
+console.log('logging in the browser console from a staticly available script')
