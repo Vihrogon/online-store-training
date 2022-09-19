@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "../"
+    }
+  ],
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "mhutchie.git-graph",
+      "tobermory.es6-string-html",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}

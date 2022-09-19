@@ -1,0 +1,30 @@
+{
+  "name": "online-store-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vihrogon/online-store-training.git"
+  },
+  "author": "Vihrogon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vihrogon/online-store-training/issues"
+  },
+  "homepage": "https://github.com/Vihrogon/online-store-training#readme",
+  "dependencies": {
+    "@emotion/css": "^11.10.0",
+    "@emotion/server": "^11.10.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "htm": "^3.1.1",
+    "vhtml": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

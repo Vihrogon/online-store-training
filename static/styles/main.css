@@ -1,0 +1,22 @@
+:root {
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: normal;
+  --primary: #000000ff;
+  --secondary: #444444ff;
+  --ternary: #888888ff;
+  --primary-bg: #ffffffff;
+  --secondary-bg: #559944ff;
+  --ternary-bg: #889966cc;
+  --accent: gold;
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary-bg);
+}
+
+body * {
+  font-size: 1rem;
+  box-sizing: border-box;
+}
