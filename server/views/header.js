@@ -1,4 +1,4 @@
-const { html, css } = require('../magic')
+const { html, css } = require('../System')
 
 function header(pdict) {
   const style = css`
