@@ -1,22 +1,27 @@
+const { Msg } = require('./System')
+
 /**
  * TODO
  * @param {Express.Request} req
  * @param {Express.Response} res
  * @param {Function} next
  */
-const setLocaleCookie = (req, res, next) => {
-  let locale = 'en'
+const setLocale = (req, res, next) => {
+  let Locale = 'en'
 
-  if (req.cookies.locale) {
-    locale = req.cookies.locale
+  if (req.cookies.locale && ['en', 'bg'].includes(req.cookies.locale)) {
+    Locale = req.cookies.locale
   } else {
     res.cookie('locale', 'en')
   }
 
-  res.viewData = { locale }
+  res.viewData = {
+    Locale,
+    Msg: Msg.bind(Locale)
+  }
   next()
 }
 
 module.exports = {
-  setLocaleCookie
+  setLocale
 }

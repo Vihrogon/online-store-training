@@ -132,10 +132,27 @@ async function getAllCategories() {
   return result
 }
 
+/**
+ * TODO
+ * @param {String} path 
+ * @returns {String}
+ */
+function Msg(path) {
+  const resources = require('./resources')
+  let result = ''
+
+  if (typeof path === 'string' && path.length && resources[this][path]) {
+    result = resources[this][path]
+  }
+
+  return result
+}
+
 module.exports = {
   viewEngine,
   html,
   css,
+  Msg,
   CatalogMgr: {
     getCategory,
     getAllCategories

@@ -8,7 +8,7 @@ function pageDecorator(content, pdict) {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Online Store Training</title>
+        <title>${pdict.Msg('siteTitle')}</title>
         <link rel="stylesheet" href="/styles/main.css" />
         <script
           src="https://code.jquery.com/jquery-3.6.1.js"
