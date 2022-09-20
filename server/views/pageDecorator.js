@@ -1,4 +1,4 @@
-const { html } = require('../magic')
+const { html } = require('../System')
 const header = require('./header')
 const footer = require('./footer')
 
